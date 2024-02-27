@@ -1,0 +1,157 @@
+* {
+  box-sizing: border-box;
+}
+
+body,
+h1,
+h2,
+h3,
+h4,
+p {
+  margin: 0;
+  font-weight: normal;
+  font-size: 100%;
+}
+
+body {
+  font-family:'cursive';
+}
+
+.header {
+  height: 100vh;
+  text-align: center;
+  background-color: wheat;
+  background-image: url(https://hiking.ru/wp-content/uploads/2019/01/for-fishing.jpg);
+  background-position:center;
+  background-size: cover;
+}
+
+.header-title {
+  margin: auto;
+  color: black;
+  font-weight: 800;
+  font-size: 74px;
+}
+
+.overlay {
+  width: 100%;
+  height: 100%;
+  display: flex;
+}
+.content {
+  font-size: 0;
+  width: 770px;
+  margin:0 auto;
+  margin: 100px auto 50px;
+}
+
+.card {
+  display: inline-block;
+  width: 360px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 25px 25px 30px;
+  margin-right: 50px;
+  box-shadow: 10px 10px 999px  rgb(80, 158, 3);
+}
+
+.card-title {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 31px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-text {
+  font-size: 18px;
+}
+
+.card-image {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+.no-right-margin{
+  margin-right:0;
+}
+.footer{
+  background-color:black;
+  height: 200px;
+}
+.line{
+  font-size: 35px;
+  font-family:'cursive';
+  text-align: center;
+  padding-top: 5px;
+}
+a{
+  text-decoration: none;
+  text-align: center;
+  margin-right: 50px;
+  color: #eee;
+}
+.name-title{
+  font-size: 25px;
+  color: #eee;
+  text-align: center;
+}
+.comparison-line{
+  height: 100px;
+  background-color:black;
+}
+.paragraph{
+  height: 100px;
+  background-color:black;
+  margin: auto;
+  color: white;
+  font-weight: 800;
+  font-size: 50px;
+  text-transform: uppercase;
+  text-align: center;
+  padding-top: 20px;
+}
+  
+
+.info-name{
+  height: 600px;
+  background-color:wheat;
+  text-align: center;
+}
+.subtitle{
+  font-size: 50px;
+  color: #eee;
+  text-align: center;
+  padding-top: 20px;
+  letter-spacing: 10px;
+  font-weight: 800;
+  text-transform: uppercase;
+}
+.card-fish {
+  display: inline-block;
+  width: 360px;
+  margin-bottom: 50px;
+  border: 1px solid black;
+  padding: 25px 25px 30px;
+  margin-right: 70px;
+  box-shadow: 10px 10px 99px  rgb(78, 6, 160);
+}
+
+.card-title-fish {
+  margin-bottom: 10px;
+  font-weight: 800;
+  font-size: 31px;
+  text-align: center;
+  text-transform: uppercase;
+}
+
+.card-text-fish {
+  font-size: 18px;
+}
+
+.card-image-fish {
+  width: 100%;
+  margin-bottom: 20px;
+  border: 1px solid black;
+}
+
